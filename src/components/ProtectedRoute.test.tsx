@@ -56,7 +56,7 @@ const renderWithProviders = (
   const store = createTestStore(initialState);
   return render(
     <Provider store={store}>
-      <MemoryRouter 
+      <MemoryRouter
         initialEntries={initialEntries}
         future={{
           v7_startTransition: true,

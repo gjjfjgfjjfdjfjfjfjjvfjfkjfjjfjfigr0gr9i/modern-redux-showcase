@@ -326,7 +326,7 @@ const Products: React.FC = () => {
                     onError={e => {
                       const target = e.target as HTMLImageElement;
                       target.src =
-                        'https://via.placeholder.com/300x200?text=Изображение+не+найдено';
+                        'https://placehold.co/300x200/E5E7EB/6B7280?text=No+Image';
                     }}
                   />
                 </div>

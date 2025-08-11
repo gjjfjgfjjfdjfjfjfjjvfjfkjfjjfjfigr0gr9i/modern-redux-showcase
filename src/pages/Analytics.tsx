@@ -186,7 +186,7 @@ const Analytics: React.FC = () => {
                     onError={e => {
                       const target = e.target as HTMLImageElement;
                       target.src =
-                        'https://via.placeholder.com/48x48?text=Нет+фото';
+                        'https://placehold.co/48x48/E5E7EB/6B7280?text=No+Image';
                     }}
                   />
                   <div className="ml-4 flex-1">

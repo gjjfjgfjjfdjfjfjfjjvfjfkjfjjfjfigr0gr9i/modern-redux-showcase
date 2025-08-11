@@ -116,7 +116,7 @@ export const baseApi = createApi({
           category: ['Электроника', 'Одежда', 'Книги', 'Спорт'][
             Math.floor(Math.random() * 4)
           ],
-          image: `https://picsum.photos/300/200?random=${post.id}`,
+          image: `https://placehold.co/300x200/4F46E5/FFFFFF?text=Product+${post.id}`,
           stock: Math.floor(Math.random() * 100) + 1,
           rating: Math.random() * 5,
           reviews: Math.floor(Math.random() * 100),
@@ -153,7 +153,7 @@ export const baseApi = createApi({
         category: ['Электроника', 'Одежда', 'Книги', 'Спорт'][
           Math.floor(Math.random() * 4)
         ],
-        image: `https://picsum.photos/300/200?random=${post.id}`,
+        image: `https://placehold.co/300x200/4F46E5/FFFFFF?text=Product+${post.id}`,
         stock: Math.floor(Math.random() * 100) + 1,
         rating: Math.random() * 5,
         reviews: Math.floor(Math.random() * 100),

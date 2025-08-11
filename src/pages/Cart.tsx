@@ -184,7 +184,7 @@ const Cart: React.FC = () => {
                       onError={e => {
                         const target = e.target as HTMLImageElement;
                         target.src =
-                          'https://via.placeholder.com/80x80?text=Нет+фото';
+                          'https://placehold.co/80x80/E5E7EB/6B7280?text=No+Image';
                       }}
                     />
 
